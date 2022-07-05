@@ -1,0 +1,72 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 1280px;
+}
+header{
+    background-image: url(/src/image/head1.png);
+    background-repeat: no-repeat;
+    height: auto;
+    
+
+}
+header .head_container{
+    margin: 10px 80px 100px 80px;
+}
+
+
+header .head_container .flex_container{
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    
+}
+header .head_container .flex_container .text_area{
+    padding: 0 10px 0 25px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    backdrop-filter: blur(10px);
+    height: 400px;
+    border-radius: 8px;
+    margin-top: 100px;
+    width: 55vw;
+    
+}
+header .head_container .flex_container .img_area{
+    width: 45vw;
+    padding: 0 10px;
+}
+header .head_container .flex_container .half_width{
+}
+header .head_container .flex_container .half_width .first_bio{
+    color: rgb(58, 58, 58);
+    margin: 35px 0 35px 0;
+}
+header .head_container .flex_container .half_width .first_bio a{
+    color: rgb(33, 42, 71);
+    text-decoration: none;
+}
+header .head_container .flex_container .half_width .first_bio .highlight{
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: #f32245;
+}
+header .head_container .flex_container .half_width .link_btn{
+    background-image: linear-gradient(to right , #FF3576 , #f53455 );
+    padding: 15px 25px;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 1px 10px 20px #00000010;
+    
+}
+header .head_container .flex_container .half_width .link_btn:hover {
+    background-image: linear-gradient(to left , #FF3576 , #f53455 );
+}
+header .head_container .flex_container .half_width img{
+    margin: 30px 0 80px 0;   
+    width: 40vw;
+}
