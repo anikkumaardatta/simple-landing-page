@@ -5,7 +5,7 @@ body{
 }
 
 header{
-    background-image: url(/src/image/head1.png);
+    background-image: url(/simple-landing-page/src/image/head1.png);
     background-repeat: no-repeat;
     height: auto;
     
@@ -67,7 +67,7 @@ header .head_container .flex_container .half_width img{
 
 
 .second_sec{
-    background-image: url(/src/image/r-sg2-grp.png);
+    background-image: url(/simple-landing-page/src/image/r-sg2-grp.png);
     background-repeat: no-repeat;
     background-size: cover;
     
