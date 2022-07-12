@@ -50,22 +50,21 @@ header .head_container .flex_container .half_width .first_bio .highlight{
     color: #f32245;
 }
 header .head_container .flex_container .half_width .link_btn{
-    background-image: linear-gradient(to right, #fd3096, #f82586, #f21a77, #eb0d68, #e3005a);
+    background-color: #ff0062;
     padding: 15px 25px;
     color: #fff;
     font-weight: 400;
     text-decoration: none;
     border-radius: 8px;
     box-shadow: 1px 10px 20px #00000010;
-    
-}
-header .head_container .flex_container .half_width .link_btn:hover {
-    background-image: linear-gradient(to left, #fd3096, #f82586, #f21a77, #eb0d68, #e3005a);
+}header .head_container .flex_container .half_width .link_btn:hover {
+    background-color: #c7004c;
 }
 header .head_container .flex_container .half_width img{
     margin: 30px 0 80px 0;   
     width: 40vw;
 }
+
 
 .second_sec{
     background-image: url(/src/image/r-sg2-grp.png);
@@ -74,7 +73,9 @@ header .head_container .flex_container .half_width img{
     
     width: 100%;
 }
-
+section .sect_container{
+    margin-top: -100px;
+}
 section .sect_container .about_sec{
     width: 90vw;
 
@@ -109,17 +110,8 @@ section .sect_container .about_sec .flex_container .about_her p{
     line-height: 1.5;
 
 }
-section .sect_container .about_sec .flex_container .about_her p .start_l{
-    font-family: 'Cinzel Decorative', cursive;
-    color: #f32245;
-    font-size: 25px;
-    font-weight: 700;
-    margin: 0;
-
-}
-
 section .sect_container .about_sec .flex_container .about_her .link_btn{
-    background-image: linear-gradient(to right, #fd3096, #f82586, #f21a77, #eb0d68, #e3005a);
+    background-color: #ff0062;
     padding: 15px 25px;
     color: #fff;
     font-weight: 400;
@@ -127,8 +119,8 @@ section .sect_container .about_sec .flex_container .about_her .link_btn{
     border-radius: 8px;
     box-shadow: 1px 10px 20px #00000010;
     margin-bottom: 200px;
-}section .sect_container .about_sec .flex_container .about_her link_btn :hover {
-    background-image: linear-gradient(to left, #fd3096, #f82586, #f21a77, #eb0d68, #e3005a);
+}section .sect_container .about_sec .flex_container .about_her .link_btn:hover {
+    background-color: #c7004c;
 }
 
 .third_sec{
@@ -136,7 +128,8 @@ section .sect_container .about_sec .flex_container .about_her .link_btn{
     background-image: linear-gradient(to bottom, #fdeaec, #faeef8, #f2f3ff, #ebf8ff, #eafcfd);
 }
 .third_sec .sect_container{
-    margin: 0px 40px;
+    width: 1280px;
+    margin: 0px auto;
     
 }
 
@@ -157,21 +150,20 @@ section .sect_container .about_sec .flex_container .about_her .link_btn{
     margin: 80px auto;
 }
 .movie_list .btn .link_btn{
-    background-image: linear-gradient(to right, #fd3096, #f82586, #f21a77, #eb0d68, #e3005a);
+    background-color: #ff0062;
     color: #fff;
     font-size: 20px;
     text-decoration: none;
     padding: 20px  75px;
     border-radius: 50px;
 
-}
-.movie_list .link_btn:hover {
-    background-image: linear-gradient(to left, #fd3096, #f82586, #f21a77, #eb0d68, #e3005a);
+}.movie_list .link_btn:hover {
+    background-color: #c7004c;
 }
 .movie_list .row{
     display: flex;
     justify-content: space-around;
-    margin: 50px;
+    margin: 50px auto;
 }
 .movie_items{
     display: flex;
@@ -188,6 +180,7 @@ section .sect_container .about_sec .flex_container .about_her .link_btn{
 
 }
 .movie_items:hover{
+    transform: scale(1.05);
     border-bottom: 8px solid #db1568;
     box-shadow: 10px 25px 25px rgba(0, 0, 0, 0.2);
 }
@@ -219,7 +212,6 @@ section .sect_container .about_sec .flex_container .about_her .link_btn{
     line-height: 1.5;
 }
 
-
 .third_sec .sect_container .album_sec .album_sec_title{
     display: inline-block;
     width: 500px;
@@ -231,29 +223,30 @@ section .sect_container .about_sec .flex_container .about_her .link_btn{
     margin-bottom: 20px;
 
 }
+.third_sec .sect_container .album_sec{
+    margin: auto;
+}
 .album_list .btn{
     width: 600px;
     text-align: center;
     margin: 80px auto;
 }
 .album_list .btn .link_btn{
-    background-image: linear-gradient(to right, #fd3096, #f82586, #f21a77, #eb0d68, #e3005a);
+    background-color: #ff0062;
     color: #fff;
     font-size: 20px;
     text-decoration: none;
     padding: 20px  75px;
     border-radius: 50px;
-
-}
-.album_list .link_btn:hover {
-    background-image: linear-gradient(to left, #fd3096, #f82586, #f21a77, #eb0d68, #e3005a);
+}.album_list .link_btn:hover {
+    background-color: #c7004c;
 }
 .album_list .row{
     display: flex;
     justify-content: space-around;
-    margin: 50px;
 }
 .album_item{
+    margin-top: 50px;
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     width: 18vw;
@@ -266,10 +259,10 @@ section .sect_container .about_sec .flex_container .about_her .link_btn{
 
 }
 .album_item:hover{
+    transform: scale(1.05);
     border-bottom: 8px solid #db1568;
     box-shadow: 10px 25px 25px rgba(0, 0, 0, 0.2);
 }
-
 .album_item .img img{
     border-radius: 15px;
     width: 250px;
@@ -283,12 +276,162 @@ section .sect_container .about_sec .flex_container .about_her .link_btn{
     padding: 0;
 
 }
-.album_item .about_movie{
-    width: 30vw;
+.album_item .about_album{
     padding: 15px;
 
 }
 .album_item .about_album .album_name{
     color: #c21532;
-    margin: 20px 5px;
+    margin: 0;
+}
+.activity_sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+    padding: 80px 100px;
+    background-image: linear-gradient(to right top, #fdeaec, #faeef8, #f2f3ff, #ebf8ff, #eafcfd);
+    
+    border-radius: 15px;
+    box-shadow: 1px 4px 33px 3px rgba(0,0,0,0.1);
+}
+.activity_sec .activity_content{
+    text-align: center;
+}
+.activity_sec .activity_content h2{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    color: #c21532;
+}
+.activity_sec .activity_content p{
+    text-align: center;
+}
+
+
+footer .subsection{
+    background-image: linear-gradient(to right bottom, #2b0819, #31081b, #290313, #380118, #290111);
+    color: #fff;
+}
+.form{
+    width: 90vw;
+    height: auto;
+    margin: 0 auto;
+}
+form{
+    width: 920px;
+    margin: auto;
+    padding: 100px 0;
+}
+form .input_text_fill{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+form .input_text_fill label{
+    color: #fff;
+    margin: 10px 0;
+    font-weight: 200;
+
+    
+}
+form .input_text_fill #email{
+    font-weight: 200;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ff0062;
+    color: #eafcfdc9;
+    outline: none;
+    width: 400px;
+    background-color: transparent;
+}
+form .input_text_fill #country{
+    font-weight: 200;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ff0062;
+    color: #eafcfdc9;
+    outline: none;
+    width: 400px;
+    background-color: transparent;
+}
+select option {
+    background: #4d0228;
+    color: #eafcfd;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  }
+  ::placeholder { /* Most modern browsers support this now. */
+    color: #eafcfdc9;
+    padding-left: 5px;
+ }
+.input_check_fill{
+    margin-bottom: 50px;
+}
+.input_check_fill .checkbox{
+    accent-color: #ff0062;
+    cursor: pointer;
+}
+.input_check_sec .check_title{
+    color: #eafcfdc9;
+}
+.input_check_fill label{
+    font-weight: 200;
+    margin-right: 50px;
+    cursor: pointer;
+}
+form p{
+    font-size: 14px;
+    font-weight: 200;
+    color: #eafcfdc9;
+}
+form p a{
+    text-decoration: none;
+    font-weight: 400;
+    color: #eafcfdc9;
+}
+form p a:hover{
+    text-decoration: underline;
+    color: #ff0d9a;
+}
+form button{
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 20px;
+    padding: 15px 75px;
+    background-color: #ff0062;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 100;
+}form button:hover{
+    background-color: #c7004c;
+}
+footer .main_footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #290111;
+}
+footer .main_footer .policys a{
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 25px;
+    color: #eafcfdc9;
+}
+footer .main_footer .policys a:hover{
+    text-decoration: underline;
+    color: #ff0d9a;
+}
+ion-icon{
+    padding: 10px;
+    margin: 0;
+    color: #ff0062;
+    font-size: 24px;
+}ion-icon:hover{
+    color: #ff0d9a;
 }
