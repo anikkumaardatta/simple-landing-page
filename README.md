@@ -1,2 +1,2 @@
-# simple-landing-page Live Page Here:
+# simple-landing-page Live Link:
  https://anikkumaardatta.github.io/simple-landing-page/
